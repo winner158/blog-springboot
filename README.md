@@ -1,10 +1,7 @@
-# Kyrie Blog
+# 开源的博客系统
 ## 个人博客系统
-Kyrie Blog是由SpringBoot1.5 + MyBatis + Thymeleaf等技术实现的个人网站，如果觉得项目不错，请帮忙`Star`支持一下。
-### 适用对象
-* Spring Boot 初学者。该博客系统综合运用了作者发表的 《Spring Boot 入门》 系列的文章提及的知识内容，初学者可以阅读文章以及结合该项目学习。
-* 与作者一样，使用 hexo 但苦于没有后台管理工具（界面）管理文章的写作者。该博客系统模仿 hexo 生成的访问路径，并支持 markdown 文件导入功能。
-* 懵懂者。初次接触博客系统的人。
+是由SpringBoot1.5 + MyBatis + Thymeleaf等技术实现的个人网站，来源于GitHub开源项目，用来参考借鉴。
+
 ### 技术栈
 #### 后端
 * 核心框架：SpringBoot
@@ -53,9 +50,7 @@ Kyrie Blog是由SpringBoot1.5 + MyBatis + Thymeleaf等技术实现的个人网�
 ### 安装
 下载源码，执行sql文件，然后修改application-dev.yml文件中连接数据库的用户名、密码。运行项目即可。
 
-前端访问地址：http://localhost:8888
+前端访问地址：http://localhost:8080
 
-后台访问地址：http://localhost:8888/admin 用户名：admin 密码：123456
+后台访问地址：http://localhost:8080/admin 用户名：admin 密码：111111
 
-### 更新日志
-2018-08-04发布第一个版本
